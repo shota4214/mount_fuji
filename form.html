@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./form.css">
+    <title>富士登山体験　お問合せフォーム</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/main.jpg" class="logo_image">
+      <div class="row header">
+        <h1>富士登山体験　夏を思いっきり楽しもう！</h1>
+      </div>
+      <div class="row body">
+        <form action="#">
+          <ul>
+            
+            <li>
+              <!-- <p class="pull-right">
+                <label for="last_name">苗　字</label>
+                <input type="text" name="last_name" placeholder="富士山" />      
+              </p> -->
+              <p class="left">
+                <label for="first_name">名　前</label>
+                <input type="text" name="first_name" placeholder="富士山 太郎" />
+              </p>
+            </li>
+            
+            <li>
+              <p>
+                <label for="email">メールアドレス <span class="req">：</span></label>
+                <input type="email" name="email" placeholder="Mount_Fuji@gmail.com" />
+              </p>
+            </li>        
+            <!-- <li><div class="divider"></div></li> -->
+            <li>
+              <label for="comments">お問合せ内容</label>
+              <textarea cols="46" rows="3" name="comments"></textarea>
+            </li>
+            
+            <li>
+              <input class="btn btn-submit" type="submit" value="送信" />
+              <small>or press <strong>enter</strong></small>
+            </li>
+            
+          </ul>
+        </form>
+        <footer>
+          <div class="homepage">
+            <p class="footer_sizuoka"><a href="https://www.pref.shizuoka.jp">静岡県HP</a></p>
+            <p class="yamanashi"><a href="https://www.pref.yamanashi.jp">山梨県HP</a></p>
+          </div>
+          <div class="copyright">
+            <p class="footer_copyright">富士登山愛好会©︎ 2022 Copyright </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
