@@ -109,8 +109,9 @@ form {
     color: $dark_grey;
   }
   small {
-    color: $blue;
+    color: blue;
     margin: 0 0 0 0.5em;
+
   }
 }
 
@@ -158,6 +159,7 @@ form {
 
 h1 {
   font-size: 1.25rem;
+  color: #fff;
 }
 
 .footer_copyright {
@@ -177,4 +179,22 @@ a {
 
 a :hover {
   color: blueviolet;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.box p {
+  color: white;
+  /* font-size: 100px; */
+  font-weight: bold;
+  text-align: center;
 }
